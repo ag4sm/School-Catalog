@@ -52,6 +52,16 @@ class HighSchool extends School {
     }
 }
 
+class MiddleSchool extends School {
+    constructor(name, numberOfStudents, exploratorySubjects) {
+        super(name, "middle", numberOfStudents);
+        this._exploratorySubjects = exploratorySubjects;
+    }
+    get exploratorySubjects() {
+        return this._exploratorySubjects;
+    }
+}
+
 const lorraineHansbury = new PrimarySchool(
     "Lorraine Hansbury",
     514,
