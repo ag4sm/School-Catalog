@@ -71,7 +71,3 @@ const sub = School.pickSubstituteTeacher([
 
     const alSmith = new HighSchool("Al E. Smith",415,['Baseball', 'Basketball', 'Volleyball', 'Track and Field']);
 
-/* Create a middle school class,
-add more properties to each class (test scores, school overview, etc), create a
-school catalog class that holds a collection of schools, create an instance of school 
-catalog for primary, middle, and high schools. */
