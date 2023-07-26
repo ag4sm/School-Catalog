@@ -68,8 +68,6 @@ const lorraineHansbury = new PrimarySchool(
     "Students must be picked up by a parent, guardian, or a family member over the age of 13."
 );
 
-console.log(lorraineHansbury.numberOfStudents);
-lorraineHansbury.quickFacts();
 const sub = School.pickSubstituteTeacher([
     'Jamal Crawford',
     'Lou Williams',
@@ -79,5 +77,12 @@ const sub = School.pickSubstituteTeacher([
     'Manu Ginobli']
     );
 
+    // instantiate instances of schools
     const alSmith = new HighSchool("Al E. Smith",415,['Baseball', 'Basketball', 'Volleyball', 'Track and Field']);
+    const CRMS = new MiddleSchool("Clifton Ridge Middle",575,["Art","Band","PE","Business"]);
 
+    // call methods on schools
+    lorraineHansbury.quickFacts();
+    alSmith.quickFacts();
+    CRMS.quickFacts();
+    console.log(CRMS.exploratorySubjects[3]);
